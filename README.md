@@ -43,25 +43,42 @@ This project is a Machine Learning web application that predicts the risk of str
 ## 📂 Project Structure
 stroke-prediction/
 │
-├── app.py # Flask application
-├── train_model.py # Model training
-├── requirements.txt
-│
-├── data/
-│ └── stroke_data.csv # Dataset
-│
-├── model/
-│ └── xgb_model.pkl # Trained model
-│
-├── templates/
-│ ├── index.html
-│ ├── result.html
-│ └── error.html
-│
-├── static/
-│ ├── style.css
-│ └── script.js
 
+├── app.py # Flask application
+
+├── train_model.py # Model training
+
+├── requirements.txt
+
+│
+
+├── data/
+
+│ └── stroke_data.csv # Dataset
+
+│
+
+├── model/
+
+│ └── xgb_model.pkl # Trained model
+
+│
+
+├── templates/
+
+│ ├── index.html
+
+│ ├── result.html
+
+│ └── error.html
+
+│
+
+├── static/
+
+│ ├── style.css
+
+│ └── script.js
 
 ---
 

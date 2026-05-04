@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stroke Prediction App</title>
+</head>
+<body>
+
+    <h1>🧠 Stroke Prediction System</h1>
+
+    <form action="/predict" method="post">
+
+        <!-- Age -->
+        <label>Age:</label><br>
+        <input type="number" name="age" required><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <select name="gender" required>
+            <option value="">--Select--</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select><br><br>
+
+        <!-- Hypertension -->
+        <label>Hypertension:</label><br>
+        <select name="hypertension" required>
+            <option value="">--Select--</option>
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+
+        <!-- Heart Disease -->
+        <label>Heart Disease:</label><br>
+        <select name="heart_disease" required>
+            <option value="">--Select--</option>
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select><br><br>
+
+        <!-- Glucose Level -->
+        <label>Average Glucose Level:</label><br>
+        <input type="number" step="any" name="avg_glucose_level" required><br><br>
+
+        <!-- BMI -->
+        <label>BMI:</label><br>
+        <input type="number" step="any" name="bmi" required><br><br>
+
+        <!-- Smoking -->
+        <label>Smoking Status:</label><br>
+        <select name="smoking_status" required>
+            <option value="">--Select--</option>
+            <option>never smoked</option>
+            <option>formerly smoked</option>
+            <option>smokes</option>
+        </select><br><br>
+
+        <!-- Submit -->
+        <button type="submit">Predict</button>
+
+    </form>
+
+</body>
+</html>
